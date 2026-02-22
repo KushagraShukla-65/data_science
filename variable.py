@@ -1,0 +1,6 @@
+name=input("Enter your name:")
+age=int(input("Enter your age:"))
+height=float(input("Enter your height:"))
+print("Your name is",name,"which is of datatype",type(name))
+print("Your age is",age,"which is of datatype",type(age))
+print("Your height is",height,"which is of datatype",type(height))
