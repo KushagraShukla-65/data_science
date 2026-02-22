@@ -1,0 +1,6 @@
+f=open("C:\\data\\lines.txt","w")
+f.write("hello\nhow are you\nso nice to meet you\nit has been a long time since we met\nhow's it going")
+f.close()
+f=open("C:\\data\\lines.txt","r")
+s=f.read()
+print("the required content in the file is:\n",s)
